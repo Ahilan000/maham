@@ -1,13 +1,13 @@
 import React from 'react'
 import { Helmet } from 'react-helmet-async'
 import Card from '../components/ui/Card'
-import imgKnitting from '../assets/manufacturing/knitting.png'
-import imgFabric from '../assets/manufacturing/Fabric Processing.png'
-import imgDyeing from '../assets/manufacturing/dyeing.png'
-import imgWet from '../assets/manufacturing/WET PROCESSING.png'
-import imgPrinting from '../assets/manufacturing/printing.png'
-import imgEmbroidery from '../assets/manufacturing/Embroidery.png'
-import imgDesign from '../assets/manufacturing/Design studio.png'
+import imgKnitting from '../assets/Manufacturing/knitting.png'
+import imgFabric from '../assets/Manufacturing/Fabric Processing.png'
+import imgDyeing from '../assets/Manufacturing/dyeing.png'
+import imgWet from '../assets/Manufacturing/WET PROCESSING.png'
+import imgPrinting from '../assets/Manufacturing/printing.png'
+import imgEmbroidery from '../assets/Manufacturing/Embroidery.png'
+import imgDesign from '../assets/Manufacturing/Design studio.png'
 
 const sections = [
   {

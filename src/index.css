@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  scroll-behavior: smooth;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  font-family: var(--font-montserrat, 'Montserrat', system-ui, -apple-system, 'Segoe UI');
+  color: theme('colors.charcoal');
+  background-color: white;
+}
+
+/* Utility overrides */
+.btn-primary {
+  @apply bg-brand-green text-white rounded-full px-4 py-2 shadow transition transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-brand-green/30;
+}
+
+/* Accessible focus styles */
+:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(139,197,63,0.18);
+  border-radius: 8px;
+}
+
+/* Respect reduced motion for animations */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
